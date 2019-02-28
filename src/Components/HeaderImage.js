@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import { Image, Icon, Segment, Modal, List } from 'semantic-ui-react'
 // import HeaderImage from'../project1.jpg'
 import { Link } from 'react-router-dom'
-import ProjectOneTextImage from '../Components/ProjectOneTextImage'
+// import ProjectOneTextImage from '../Components/ProjectOneTextImage'
 import Logo from '../Components/Logo'
 // import '../Logo.css'
 

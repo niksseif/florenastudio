@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import ImageHeading from '../Components/HeaderImage';
 
-// import '../Logo.css';
+import '../Logo.css';
 
 class LandingPage extends Component {
   componentDidMount() {
@@ -17,8 +17,6 @@ class LandingPage extends Component {
 
         <section className="UnderConstruction">Under Construction...</section>
       </div>
-
-
     );
   }
 }

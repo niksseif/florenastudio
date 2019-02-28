@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Logo2 from '../Asset 3.png';
 import Logo3 from '../Asset 4.png';
 
-import styled from 'react-emotion';
 
 import '../Logo.css'
 
