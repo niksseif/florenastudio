@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+.container {
+position: relative;
+background-color: black;
+opacity: 0.9;
+margin: 0;
+--maskX: 0;
+--maskY: 50;
+
+}
+.backGroundSection {
+cursor: pointer;
+}
+
+.topSec{
+position: absolute;
+top: 0;
+left:  27.8%;
+transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
+clip-path: polygon(0 0, calc(var(--maskX) * 1%) 0, calc(var(--maskY) * 1%) 100%, 0 100%);
+/* clip-path: polygon(0 0, calc(var(--maskX) * 1% + (var(--maskY) - 50)* 4%) 0, calc(var(--maskx) * 1%+ (var(--maskY)- 50)* 4%) 100%, 0 100%); */
+
+}
+.logoFont {
+    font-family: 'Abel', sans-serif;
+    color:white;
+    font-size:50px;
+    margin-left:5;
+    top:86%;
+    position:absolute;
+    
+}
+.Email{
+   color:grey;
+   font-family: 'Abel', sans-serif;
+   font-size:20px;
+   float:right;
+    margin: 3% 23% 0% 19%
+}  
+.Phone{
+   color:grey;
+   font-family: 'Abel', sans-serif;
+   font-size:20px;
+   float:right;
+    margin: 3% 23% 0% 19%
+}  
+
+ @media only screen and (max-width: 1100px) {
+    .logoFont {
+       font-size:20px;
+    }
+    .whiteLogo{
+        width: 50vw;
+    }
+    .blackLogo {
+        width:50vw;
+    }
+    
+
+}  
+
