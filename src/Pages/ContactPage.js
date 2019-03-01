@@ -13,7 +13,7 @@ class contact extends Component {
         <section className="Email"
         // style={{float:"right"}}
         >
-        Email : fnemteanu@gmail.com
+        Email : fnemteanu@florenastudio.com
         </section>
         <section 
         className="Phone"
