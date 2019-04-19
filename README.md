@@ -19,6 +19,5 @@ npm - Dependency Management <br>
 
 
 # Links 
-##### Deployed version:https://florenastudio.com <br>
 ##### Deployed version:http://florenastudio.herokuapp.com/ <br>
 
