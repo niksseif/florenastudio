@@ -16,7 +16,7 @@ npm start <br>
 create-react-app <br>
 React-semantic-ui <br>
 npm - Dependency Management <br>
-![image](http://{florenastudio.herokuapp.com/})
+
 
 # Links 
 ##### Deployed version:https://florenastudio.com <br>
